@@ -2,9 +2,13 @@
 title: "ミニマムかつ未来を見据えたGoogle Cloudアーキテクチャ"
 emoji: "💵"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["googlecloud"]
+topics: ["googlecloud", "cloudrun", "sqlite", "litestream"]
 published: true
 ---
+
+:::message info
+この記事は人間が書き、AIにレビューしてもらいました
+:::
 
 ## はじめに
 
