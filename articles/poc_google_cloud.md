@@ -6,7 +6,7 @@ topics: ["googlecloud", "cloudrun", "sqlite", "litestream"]
 published: true
 ---
 
-:::message info
+:::message
 この記事は人間が書き、AIにレビューしてもらいました
 :::
 
