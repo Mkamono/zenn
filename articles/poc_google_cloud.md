@@ -41,7 +41,7 @@ AIによって開発が加速した現在、プロダクト開発においてア
 
 アプリケーションの要件によってインフラ構成は大きく異なりますが、一般的な要件のwebアプリケーションでは以下のような構成が広く採用されています。
 
-![pro-architecture](img/pro-architecture.png)
+![pro-architecture](../images/poc-architecture/pro-architecture.png)
 
 ユーザーのリクエストはロードバランサーにたどり着き、Cloud Storageに保存されたフロントエンドのキャッシュをCloud CDNが配信します。そのフロントエンドはAPIサーバーのロードバランサーにリクエストを送り、APIサーバーがCloud SQLにアクセスしてデータを取得します。
 
@@ -65,7 +65,7 @@ https://cloud.google.com/load-balancing/pricing?hl=ja
 
 Cloud Load Balancingではトラフィックを流すために転送ルールというものを設定する必要があります。この転送ルールがなければトラフィックを転送できないため、必須のものです。この転送ルールは最初の5つまで、$18.25 / 月 かかります。
 
-![lb-min](img/lb-min.png)
+![lb-min](../images/poc-architecture/lb-min.png)
 
 ---
 
@@ -75,7 +75,7 @@ https://cloud.google.com/sql/pricing?hl=ja
 
 DBの起動には時間がかかるため、常時起動しておく前提の価格ですが、HDDを使った最小限の構成でも $10.22 / 月 かかります。
 
-![db-min](img/db-min.png)
+![db-min](../images/poc-architecture/db-min.png)
 
 これらを合わせると、$37.96 / 月、1ドル150円で換算すると約5700円 / 月 かかります。これは個人で扱うMVPの段階では非常に大きなコストです。また、企業であったとしても長期間、多数のMVPを立ち上げる場合、無視できないコストになります。
 
