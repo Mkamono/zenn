@@ -3,7 +3,7 @@ title: "ミニマムかつ未来を見据えたGoogle Cloudアーキテクチャ
 emoji: "💵"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["googlecloud"]
-published: false
+published: true
 ---
 
 ## はじめに
