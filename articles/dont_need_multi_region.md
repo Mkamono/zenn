@@ -3,7 +3,7 @@ title: "あなたのアプリにマルチリージョンは必要ないかもし
 emoji: "🌏"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["googlecloud"]
-published: false
+published: true
 ---
 
 ## はじめに
