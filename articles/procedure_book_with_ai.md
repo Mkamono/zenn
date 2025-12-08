@@ -45,6 +45,10 @@ Cloud SQLのリージョン移行手順をmarkdownで作成してください。
 
 AIくんが書いてくれた手順書は以下の通りだよ!
 
+<details>
+<summary>AIくんが書いた手順書</summary>
+</details>
+
 <summary>AIくんが書いた手順書</summary>
 
 <details>
