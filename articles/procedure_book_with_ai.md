@@ -45,10 +45,13 @@ Cloud SQLのリージョン移行手順をmarkdownで作成してください。
 
 AIくんが書いてくれた手順書は以下の通りだよ!
 
+<summary>AIくんが書いた手順書</summary>
+
 <details>
 <summary>AIくんが書いた手順書</summary>
 
 test
+
 <!-- ````markdown
 Cloud SQL（PostgreSQL）を、リージョナル障害への備えとして東京（asia-northeast1）から大阪（asia-northeast2）へ移行・切り替えを行うための手順書です。
 
