@@ -2,7 +2,7 @@
 title: "フォロワーシップから始めるリーダーシップ"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["リーダーシップ", "フォロワーシップ"]
-published: false
+published: true
 ---
 
 フォロワーシップは時としてリーダーシップに見えるし、根底に流れる考え方は似ている
